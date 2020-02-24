@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/module */ \"./src/js/module.js\");\n//import './css/main.css';\n\nObject(_js_module__WEBPACK_IMPORTED_MODULE_0__[\"hello\"])();\nObject(_js_module__WEBPACK_IMPORTED_MODULE_0__[\"sup\"])();\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/module */ \"./src/js/module.js\");\n//import './css/main.css';\n\nObject(_js_module__WEBPACK_IMPORTED_MODULE_0__[\"hello\"])();\nObject(_js_module__WEBPACK_IMPORTED_MODULE_0__[\"sup\"])();\nconsole.log('webpack watch is working fine');\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
