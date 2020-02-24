@@ -1,3 +1,6 @@
-import './css/main.css';
+//import './css/main.css';
 
-console.log("Namaste Trump !");
+import {hello, sup} from './js/module';
+
+hello();
+sup();
