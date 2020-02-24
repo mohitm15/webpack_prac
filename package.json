@@ -4,6 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
   "repository": {
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/mohitm15/webpack_prac#readme",
   "devDependencies": {
+    "css-loader": "^3.4.2",
+    "style-loader": "^1.1.3",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   }
