@@ -3,7 +3,7 @@
 // }
   
   function sup() {
-    console.log('What up from sup()');
+    console.log('What up from sup() function to the');
   }
   
   export {sup};
