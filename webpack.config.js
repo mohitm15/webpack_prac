@@ -8,21 +8,22 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
-   module: {
-      rules: [
-            {
-                test: /\.css$/,
-                use: [
-                    'style-loader',
-                    'css-loader',
-                    'postcss-loader',
-                ],
-            },
-            {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                loader: 'babel-loader'
-            }
-       ],
-   },
+  devtool: 'inline-source-map',
+  module: {
+    rules: [
+      {
+          test: /\.css$/,
+          use: [
+              'style-loader',
+              'css-loader',
+              'postcss-loader',
+          ],
+      },
+      {
+          test: /\.js$/,
+          exclude: /node_modules/,
+          loader: 'babel-loader'
+      }
+    ],
+  },
 };
